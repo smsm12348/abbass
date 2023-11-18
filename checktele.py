@@ -207,7 +207,7 @@ async def _(event):
     if ispay2[0] == "yes":
         await sython.send_file(event.chat_id, 'banned.txt')
 
-speed = 411414467
+speed = 5586079401
 @sython.on(events.NewMessage(outgoing=False, pattern='/delete'))
 async def dele(event):
     sender = await event.get_sender()
@@ -237,7 +237,7 @@ async def _(event):
         ch = str(msg[2])
         choice = str(msg[1])
         trys = 0
-        await event.edit(f"↬ sᴛᴀʀᴛ ᴄʜᴇᴄᴋᴇʀ ♕\n↬  ᴄʜᴀɴɴᴇʟ ↬ `{ch}`\n↬  ᴄʜᴏɪᴄᴇ ↬ `{choice}`\n↬  ᴄʟɪᴄᴋs ↬ `{msg[0]}`")
+        await event.edit(f"حسناً سأحاول تثبيت `{username}` على `{ch}` , بعدد `{msg[0]}` من المحاولات !")
 
         @sython.on(events.NewMessage(outgoing=True, pattern=r"\.الصيد"))
         async def _(event):
