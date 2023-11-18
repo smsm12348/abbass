@@ -78,7 +78,7 @@ async def _(event):
     await event.edit("جارٍ...")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
-    await event.edit(f'''ᴄʜᴇᴄᴋᴇʀ ɪs ʀᴜɴɪɴɢ ♕\n𝙿ᴏɴɢ ↬ `{ms}`\nᴅᴀᴛᴇ ↬ `{m9zpi}`\nᴄʜᴀᴛ ɪᴅ ↬ `{event.sender_id}`\nᴅᴇᴠ ᴄʜᴇᴄᴋᴇʀ ↬ [- Ramy  ](tg://openmessage?user_id=1314630552)''')
+    await event.edit(f'''ᴄʜᴇᴄᴋᴇʀ ɪs ʀᴜɴɪɴɢ ♕\n𝙿ᴏɴɢ ↬ `{ms}`\nᴅᴀᴛᴇ ↬ `{m9zpi}`\nᴄʜᴀᴛ ɪᴅ ↬ `{event.sender_id}`\nᴅᴇᴠ ᴄʜᴇᴄᴋᴇʀ ↬ [- @u0uu0  ](tg://openmessage?user_id=411414467)''')
 
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.م1"))
@@ -97,7 +97,7 @@ ownerhson_id = 1314630552
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('Hi My Developer [ Ramy ](tg://openmessage?user_id=1314630552)')
+        order = await event.reply('Hi My Developer [ @u0uu0 ](tg://openmessage?user_id=411414467)')
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
