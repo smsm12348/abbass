@@ -36,8 +36,8 @@ import requests
 
 sython.start()
 c = requests.session()
-bot_username = '@zmmbot'
-bot_usernamee = '@A_MAN9300BOT'
+bot_username = ''
+bot_usernamee = '@u0uu0'
 
 y = datetime.datetime.now().year
 m = datetime.datetime.now().month
@@ -61,7 +61,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("i_l_n"))
+        await sython(JoinChannelRequest("u0uu0"))
     except BaseException:
         pass
 
@@ -108,7 +108,7 @@ async def update(event):
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@i_l_n"))
+        await sython(JoinChannelRequest("@u0uu0"))
     except BaseException:
         pass
  
@@ -119,7 +119,7 @@ GCAST_BLACKLIST = [
 ]
 
 DEVS = [
-    5774423143,
+    5586079401,
 ]
 def calc(num1, num2, fun):
     if fun == "+":
