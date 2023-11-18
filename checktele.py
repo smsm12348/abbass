@@ -237,7 +237,7 @@ async def _(event):
         ch = str(msg[2])
         choice = str(msg[1])
         trys = 0
-        await event.edit(f"حسناً سأحاول تثبيت `{username}` على `{ch}` , بعدد `{msg[0]}` من المحاولات !")
+        await event.edit(f"↬ sᴛᴀʀᴛ ᴄʜᴇᴄᴋᴇʀ ♕\n↬  ᴄʜᴀɴɴᴇʟ ↬ `{ch}`\n↬  ᴄʜᴏɪᴄᴇ ↬ `{choice}`\n↬  ᴄʟɪᴄᴋs ↬ `{msg[0]}`")
 
         @sython.on(events.NewMessage(outgoing=True, pattern=r"\.الصيد"))
         async def _(event):
